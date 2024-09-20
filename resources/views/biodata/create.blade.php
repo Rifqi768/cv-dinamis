@@ -3,6 +3,7 @@
 @section('content')
     <div class="container">
         <h1>formulir</h1>
+        <!-- ini adalah formulir biodata -->
         <form method="post" action="{{ route('biodata.store')}}">
             @csrf
             <div class="mb-3">
